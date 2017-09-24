@@ -12,3 +12,7 @@ def ping():
 def print_db(key):
     pprint (db[key])
     return jsonify(db[key])
+
+def add_taxi(taxi):
+    db["taxis"].append(taxi)
+    return success
