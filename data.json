@@ -169,18 +169,16 @@
     },
     "curr_loc": [55, 55],
     "is_available": true
-  },
+  }
 ],
-  "rides": [
+  "current_rides": [
     {
       "id": 1,
-      "taxi": 1,
+      "taxi": 0,
       "start_time":1506238519,
-      "end_time": 1506238800,
+      "end_time": 0,
       "start_loc": [1,1],
-      "end_loc": [2,3],
-      "ride_time": 55,
-      "ride_distance": 2
+      "end_loc": [0,0]
     }
   ],
   "available_cars":[
