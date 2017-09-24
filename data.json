@@ -1,0 +1,31 @@
+{
+  "taxis": [{
+    "id": 1,
+    "car": {
+      "id": 1,
+      "name": "Indica",
+      "color": "white",
+      "category": "economy"
+    },
+    "curr_loc": [2, 3],
+    "is_available": true
+  }],
+  "rides": [
+    {
+      "id": 1,
+      "start_time":1506238519,
+      "end_time": 1506238800,
+      "start_loc": [1,1],
+      "end_loc": [2,3],
+      "ride_time": 55,
+      "ride_distance": 2
+    }
+  ],
+  "available_cars":[
+    {
+      "car_id": 1,
+      "type": "hipster",
+      "h_loc": 5
+    }
+  ]
+}
