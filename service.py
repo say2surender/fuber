@@ -72,6 +72,8 @@ def end_ride(ride):
         ride["time_elapsed"] = (parser.parse(ride["start_time"]) - parser.parse(ride["start_time"])).total_seconds()
         ride["distance_covered"] = utils.eu_distance(ride["start_loc"], ride["end_loc"])
         ride["fare"] = ride["time_elapsed"] + ride["distance_covered"] * 2
+        with open("rides.log", "a") as log:
+            log.write(str(ride["id"])+" - "+str(ride["fare"])+" dodgecoins")
         return ride
     else:
         return "Not a valid ride"
