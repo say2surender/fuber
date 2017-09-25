@@ -1,191 +1,224 @@
 {
   "taxis": [{
     "id": 1,
-    "car": {
+    "taxi": {
       "id": 1,
       "name": "indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [2, 3],
+    "curr_loc": {
+      "lat": 2,
+      "long": 3
+    },
     "is_available": true
-  },{
+  }, {
     "id": 2,
-    "car": {
+    "taxi": {
       "id": 2,
       "name": "indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [3, 7],
+    "curr_loc": {
+      "lat": 3,
+      "long": 7
+    },
     "is_available": false
-  },{
+  }, {
     "id": 3,
-    "car": {
+    "taxi": {
       "id": 3,
       "name": "beetle",
       "color": "pink",
       "category": "hipster"
     },
-    "curr_loc": [9, 1],
+    "curr_loc": {
+      "lat": 9,
+      "long": 1
+    },
     "is_available": true
-  },{
+  }, {
     "id": 4,
-    "car": {
+    "taxi": {
       "id": 4,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [12, 30],
+    "curr_loc": {
+      "lat": 12,
+      "long": 30
+    },
     "is_available": true
-  },{
+  }, {
     "id": 5,
-    "car": {
+    "taxi": {
       "id": 5,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [21, 13],
+    "curr_loc": {
+      "lat": 21,
+      "long": 13
+    },
     "is_available": true
-  },{
+  }, {
     "id": 6,
-    "car": {
+    "taxi": {
       "id": 6,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [50, 16],
+    "curr_loc": {
+      "lat": 50,
+      "long": 16
+    },
     "is_available": true
-  },{
+  }, {
     "id": 7,
-    "car": {
+    "taxi": {
       "id": 7,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [40, 78],
+    "curr_loc": {
+      "lat": 40,
+      "long": 78
+    },
     "is_available": true
-  },{
+  }, {
     "id": 8,
-    "car": {
+    "taxi": {
       "id": 8,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [3, 66],
+    "curr_loc": {
+      "lat": 3,
+      "long": 66
+    },
     "is_available": true
-  },{
+  }, {
     "id": 9,
-    "car": {
+    "taxi": {
       "id": 9,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [51, 20],
+    "curr_loc": {
+      "lat": 51,
+      "long": 30
+    },
     "is_available": true
-  },{
+  }, {
     "id": 10,
-    "car": {
+    "taxi": {
       "id": 10,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [97, 87],
+    "curr_loc": {
+      "lat": 87,
+      "long": 97
+    },
     "is_available": true
-  },{
+  }, {
     "id": 11,
-    "car": {
+    "taxi": {
       "id": 11,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [71, 90],
+    "curr_loc": {
+      "lat": 71,
+      "long": 90
+    },
     "is_available": true
-  },{
+  }, {
     "id": 12,
-    "car": {
+    "taxi": {
       "id": 12,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [56, 87],
+    "curr_loc": {
+      "lat": 56,
+      "long": 87
+    },
     "is_available": true
-  },{
+  }, {
     "id": 13,
-    "car": {
+    "taxi": {
       "id": 13,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [37, 48],
+    "curr_loc": {
+      "lat": 37,
+      "long": 48
+    },
     "is_available": true
-  },{
+  }, {
     "id": 14,
-    "car": {
+    "taxi": {
       "id": 14,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [41, 80],
+    "curr_loc": {
+      "lat": 41,
+      "long": 80
+    },
     "is_available": true
-  },{
+  }, {
     "id": 15,
-    "car": {
+    "taxi": {
       "id": 15,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [9, 99],
+    "curr_loc": {
+      "lat": 9,
+      "long": 99
+    },
     "is_available": true
-  },{
+  }, {
     "id": 16,
-    "car": {
+    "taxi": {
       "id": 16,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [79, 5],
+    "curr_loc": {
+      "lat": 79,
+      "long": 5
+    },
     "is_available": true
-  },{
+  }, {
     "id": 17,
-    "car": {
+    "taxi": {
       "id": 17,
       "name": "Indica",
       "color": "white",
       "category": "economy"
     },
-    "curr_loc": [55, 55],
+    "curr_loc": {
+      "lat": 55,
+      "long": 55
+    },
     "is_available": true
-  }
-],
-  "current_rides": [
-    {
-      "id": 1,
-      "taxi": 0,
-      "start_time":1506238519,
-      "end_time": 0,
-      "start_loc": [1,1],
-      "end_loc": [0,0]
-    }
-  ],
-  "available_cars":[
-    {
-      "car_id": 1,
-      "type": "hipster",
-      "h_loc": 5
-    }
-  ]
+  }]
 }
